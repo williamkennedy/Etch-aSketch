@@ -1,0 +1,73 @@
+.container {
+	width: 960px;
+	height: 100%;
+	margin: auto;
+
+	/* Internet Explorer 10 */
+display:-ms-flexbox;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Opera, and Chrome */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+
+	
+	
+
+}
+
+
+div {
+	clear: both;
+	float: none;
+	display: inline-block;
+	
+	width: 50px;
+	height: 50px;
+	
+
+}
+.grid_controls {
+	margin: 50px 200px 0 200px;
+	border: 1px solid green;
+	float: left;
+	
+}
+ul{
+	margin: 10px 100px 10px 20px;
+	padding-bottom: 20px;
+}
+
+ul li{
+	float: left;
+	list-style: none;
+	display: inline;
+}
+.grid_square {
+	border: 1px solid #fff;
+	background-color:#000000;
+	
+
+	
+}
+
+.selected {
+	
+	background-color:#fff;
+}
+.not_selected {
+	
+	background-color:#000000;;
+}
